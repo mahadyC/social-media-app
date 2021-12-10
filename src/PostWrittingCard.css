@@ -42,7 +42,7 @@
 
 /* PostWrittingCard  input */
 .createPost input {
-    background-color: #b9b7b7;
+    background-color: hsl(0, 1%, 72%);
     border: none;
     border-radius: 80px;
     margin: 8px auto;
