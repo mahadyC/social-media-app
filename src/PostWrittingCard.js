@@ -13,7 +13,7 @@ const PostWrittingCard = ({change,submit}) => {
                        <div>
                             <input type="text" name="createPost" id="createPost" required onChange = {change}  placeholder="what's on your mind, ......?" />
                        </div>
-                        <div>
+                        <div className="submit">
                             <input type="submit" value="Create post"/>  
                         </div>
                         
