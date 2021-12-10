@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-2);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  form{
+    color: var(--white);
+    padding: 3rem;
+    font-size: 15px;
+}
+
+.createPost{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 30px;
+    justify-content: center;
+    box-shadow: 0 0 1px 1px black, 0 1px 1px 0 ;
+    gap: 50px;
+}
+
+
+/* PostWrittingCard  icon */
+.createPost .icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:#b9b7b7;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+/* PostWrittingCard  input */
+.createPost input {
+    background-color: #b9b7b7;
+    border: none;
+    border-radius: 80px;
+    margin: 8px auto;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    width: 10rem;
+    height: 40px;
+    font-size: 20px;
+  
+}
+
+input[type="text"] {
+    width: 30rem;
+    height: 50px;
+    font-size: 20px;
+    padding: 20px;
+}
+
