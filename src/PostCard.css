@@ -1,11 +1,4 @@
 
-.cardContainer {
-    display: flex;
-    justify-content: center;
-    border: 2px solid black;
-    width: 60%;
-    padding: 2rem 0;
-}
 
 .card {
     display: flex;
@@ -15,17 +8,8 @@
     border-radius: 10px;
     padding: 1.5rem;
     margin: 1rem;
+    /* box-shadow: 0 16px 20px 0; */
 }
-
-/* .headerSecContainer {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 1.5rem;
-    margin: 1rem;
-} */
 
 .headerSec {
     display: flex;
@@ -47,7 +31,6 @@
 }
 
 .userTime {
-    /* background-color: cadetblue; */
     margin-left: 0.5rem;
 }
 
@@ -62,8 +45,6 @@
 }
 img {
     display: inline-block;
-    /* width: 20px;
-    height: 20px; */
 }
 
  .comment {
@@ -84,7 +65,6 @@ hr{
 .buttons button{
     cursor: pointer;
     padding: 0px;
-    /* opacity: 0.5; */
     background-color: white;
     border: none;
 }

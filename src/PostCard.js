@@ -36,7 +36,8 @@ class PostCard extends React.Component {
 
   render() {
     return (
-      <div className="cardContainer">
+
+      // <div className="cardContainer">
           
         <div className="card">
           <div className="headerSec">
@@ -47,7 +48,7 @@ class PostCard extends React.Component {
             </div>
           </div>
 
-          <p>{this.props.post}</p>
+          <p>{this.props.userPost}</p>
           <div className="likes">
             <div>
               <img src={like} alt="icon" style={{ width: 20, height: 15 }} />
@@ -75,7 +76,7 @@ class PostCard extends React.Component {
             )}
           </div>
         </div>
-      </div>
+      // </div>
     );
   }
 }

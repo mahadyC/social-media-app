@@ -1,36 +1,57 @@
 
+import React from 'react';
 import './App.css';
 import PostCard from './PostCard';
 
-function App() {
+class App extends React.Component {
 
-  let posts = [
-    {
-      avatar: "avt-1",
-      username: "John",
-      timestamp: "time",
-      userPosts: [{id: "post-1" , postObj: {id:"post-obj-1", post: "What a beutiful life!", likes: 10, comments:[]}}],
-    },
-    {
-      avatar: "avt-2",
-      username: "Jane",
-      timestamp: "time",
-      userPosts: [{id: "post-2" , postObj: {id:"post-obj-2", post: "What a beutiful day!", likes: 9, comments:[]}}],
-    },
-    {
-      avatar: "avt-3",
-      username: "Teressa",
-      timestamp: "time",
-      userPosts: [{id: "post-3" , postObj: {id:"post-obj-3", post: "What a beutiful weather!", likes: 7, comments:[]}}],
-    }
-  ];
+  state= {
+    posts: [
+      {
+        avatar: "avt-1",
+        username: "John",
+        timestamp: "time",
+        userPosts:  "What a beutiful life!",
+      },
+      {
+        avatar: "avt-2",
+        username: "Jane",
+        timestamp: "time",
+        userPosts:  "Holidays coming!",
+      },
+      {
+        avatar: "avt-3",
+        username: "Teressa",
+        timestamp: "time",
+        userPosts: "What a beutiful weather!",
+      }
+    ]
+  };
 
-  return (
-    <div className="app">
-      <h1>Social media app</h1>
-      {posts.map(post => <PostCard avatar={post.avatar} username={post.username} timestamp={post.timestamp}/>)}
-      
-    </div>
-  );
+  createPost = () => {
+    this.setState({
+        posts: [ 
+        {avatar: "avt-4",
+        username: "Lisbon",
+        timestamp: "time",
+        userPosts: "This is a new post!"}, ...this.state.posts]
+    })
+  }
+
+  // [{id: "post-3" , postObj: {id:"post-obj-3", post: "What a beutiful weather!", likes: 7, comments:[]}}]
+  render(){
+    return (
+      <div className="app">
+        <h1>Social media app</h1>
+        <button onClick={this.createPost}>createPost</button>
+        <div className="postsHolder">
+        {this.state.posts.map(post => 
+           <PostCard avatar={post.avatar} username={post.username} timestamp={post.timestamp} userPost={post.userPosts}/>
+        )}
+        </div>
+        <footer>copyrights BravoFa Software 2021</footer>
+      </div>
+    );
+  }
 }
 export default App;
