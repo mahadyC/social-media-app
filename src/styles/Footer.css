@@ -1,0 +1,16 @@
+/* ####### Footer ###### */
+footer{
+    margin: 0.5rem 4rem;
+    text-align: center;
+    background-color: var(--ml-2);
+    box-shadow: 0 1px 2px 1px white, 0 1px 2px 0 ;
+    justify-content: center;
+    color:#800080 ;
+    margin-bottom: 0;
+}
+
+footer p{ 
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 30px;
+}

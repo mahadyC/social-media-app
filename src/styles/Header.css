@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Federant&family=Roboto&family=Special+Elite&display=swap');
+
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+header{
+    margin: 0.5rem 4rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 2px 1px white, 0 1px 2px 0 ;
+    justify-content: center;
+    color:#800080 ;
+    margin-bottom: 0;
+}
+
+header h2{
+   margin:20px;
+    font-family: 'Federant', cursive;
+  
+}
+
+header input[type="text"]  {
+    background: #F0F2F5;
+    border: none;
+    border-radius: 80px;
+    margin-top: 10px;
+    outline-style:none;
+    outline: none;
+    width: 20rem;
+    height: 30px;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+
+header input::placeholder{
+    font-family: FontAwesome;
+    color:#800080;
+    transform: rotateY(180deg);
+    opacity: 0.2;
+}
+
+.inputSearch{
+    margin-left: -30px;
+}
+header .icon{
+    font-size: 40px;
+    margin: 10px 50px;
+}
+
+.Nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notification{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+header .bell{
+    font-size: 20px;
+    padding: 10px;
+    margin: -15px;
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #F0F2F5;
+    margin-left: 300px;
+}
