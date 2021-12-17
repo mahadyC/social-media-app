@@ -7,7 +7,6 @@ const Home = () => {
         <div>
              <div className="home">
            <PostWrittingCard/>
-           
              </div>
             
         </div>
