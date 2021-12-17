@@ -1,7 +1,7 @@
 
 import React from 'react';
-import './App.css';
-import PostCard from './PostCard';
+
+import PostCard from './components/PostCard';
 
 class App extends React.Component {
 

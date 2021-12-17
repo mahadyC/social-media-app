@@ -1,7 +1,7 @@
 import React from "react";
-import "./PostCard.css";
-import like from "./thumbs-up.svg";
-import comment from "./comment-alt.svg";
+import "../styles/PostCard.css";
+import like from "../thumbs-up.svg";
+import comment from "../comment-alt.svg";
 class PostCard extends React.Component {
   state = {
     writeComment: false,

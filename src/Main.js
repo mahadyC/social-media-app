@@ -2,7 +2,8 @@ import React from "react";
 import {Routes, Route, BrowserRouter} from "react-router-dom"
 import Home from "./components/Home";
 import Header from './components/Header';
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import App from "./App";
 
 
 
@@ -22,6 +23,7 @@ function Main() {
       <BrowserRouter>
         <Header/>
         <Rout/>
+        <App/>
         <Footer/>
       </BrowserRouter>
     );
