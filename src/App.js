@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 
 import React from 'react';
 import './App.css';
@@ -51,10 +49,9 @@ class App extends React.Component {
            <PostCard avatar={post.avatar} username={post.username} timestamp={post.timestamp} userPost={post.userPosts}/>
         )}
         </div>
-        <footer>copyrights BravoFa Software 2021</footer>
+
       </div>
     );
   }
 }
 export default App;
->>>>>>> postcard
