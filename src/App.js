@@ -3,6 +3,9 @@ import React from 'react';
 
 import PostCard from './components/PostCard';
 
+import PostWrittingCard from './components/PostWrittingCard';
+
+
 class App extends React.Component {
 
   state= {
@@ -28,13 +31,13 @@ class App extends React.Component {
     ]
   };
 
-  createPost = () => {
+  createPost = (post) => {
     this.setState({
         posts: [ 
         {avatar: "avt-4",
         username: "Lisbon",
         timestamp: "time",
-        userPosts: "This is a new post!"}, ...this.state.posts]
+        userPosts: post}, ...this.state.posts]
     })
   }
 
@@ -42,14 +45,13 @@ class App extends React.Component {
   render(){
     return (
       <div className="app">
-        <h1>Social media app</h1>
-        <button onClick={this.createPost}>createPost</button>
+        <PostWrittingCard createPost={this.createPost}/>
         <div className="postsHolder">
         {this.state.posts.map(post => 
            <PostCard avatar={post.avatar} username={post.username} timestamp={post.timestamp} userPost={post.userPosts}/>
         )}
         </div>
-
+        <footer>Copyrights reserved by BravoFA softwares limited 2021</footer>
       </div>
     );
   }

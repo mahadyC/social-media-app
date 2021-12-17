@@ -13,10 +13,11 @@
 
 .headerSec {
     display: flex;
-    background-color: rgba(20, 204, 179, 0.986);
+    background-color: rgba(20, 204, 179, 0.986);;
     align-items: center;
     border-radius: 5px;
     margin-bottom: 1rem;
+    /* color: white; */
 }
 
 .avatar{

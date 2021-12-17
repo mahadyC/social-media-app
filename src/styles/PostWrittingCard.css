@@ -36,6 +36,8 @@
     align-items: center;
     text-align: center;
     font-size: 40px;
+    background-color: rgba(20, 204, 179, 0.986);
+    
 }
 
 
@@ -51,13 +53,16 @@
     outline: none;
 }
 
-input[type="submit"] {
+input[type="button"] {
     width: 10rem;
     height: 40px;
     font-size: 20px;
     margin-top: 25px;
+    cursor: pointer;
+    background-color: rgba(20, 204, 179, 0.986);
+
 }
-.createPost .submit{
+.createPost .button{
     padding-left: 30px;
 }
 input[type="text"] {

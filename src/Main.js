@@ -24,7 +24,7 @@ function Main() {
       <BrowserRouter>
         <Header/>
         <Rout/>
-        <Footer/>
+        {/* <Footer/> */}
       </BrowserRouter>
     );
   }

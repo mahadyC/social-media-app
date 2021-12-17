@@ -35,10 +35,7 @@ class PostCard extends React.Component {
   };
 
   render() {
-    return (
-
-      // <div className="cardContainer">
-          
+    return (    
         <div className="card">
           <div className="headerSec">
             <div className="avatar">{this.props.avatar}</div>
@@ -53,7 +50,6 @@ class PostCard extends React.Component {
             <div>
               <img src={like} alt="icon" style={{ width: 20, height: 15 }} />
             </div>
-            {/* <span>{this.state.likes}</span> */}
             <span>{this.props.likes}</span>
           </div>
           <hr />
@@ -76,7 +72,6 @@ class PostCard extends React.Component {
             )}
           </div>
         </div>
-      // </div>
     );
   }
 }

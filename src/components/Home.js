@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div>
              <div className="home">
-           <PostWrittingCard/>
+              {/* <PostWrittingCard/> */}
              </div>
             
         </div>
