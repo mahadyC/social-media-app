@@ -3,7 +3,7 @@ import App from "../App";
 
 const Group = () => {
     return (
-        <div>
+        <div className='group'>
              <App/>
         </div>
     );

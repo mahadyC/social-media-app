@@ -1,0 +1,5 @@
+
+.group{
+    margin: 20px ;
+    min-height: calc(100vh -20px);
+}
