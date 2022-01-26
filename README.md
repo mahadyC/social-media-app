@@ -1,4 +1,4 @@
-[![RatInMaze](https://github.com/mahadyC/social-media-app/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/mahadyC/social-media-app/actions)
+[![SocialApp](https://github.com/mahadyC/social-media-app/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/mahadyC/social-media-app/actions)
 
 # Social media app
 - This is a social media app built purposely for students in the same school or department for chatting amidst themselves.
