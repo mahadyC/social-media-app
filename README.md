@@ -17,3 +17,5 @@
 - By creating a new post, the post display avatar, timestamp, message, like, and comment icon. 
 
 ![screenshot-comment](/img/Newpost.png)
+
+## Developed by BravoFA
