@@ -1,0 +1,16 @@
+name: RatInMaze
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/jekyll-build-pages@v1-beta
+      - name: Install 🔧
+        run: npm install
+
+      
